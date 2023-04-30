@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b9efea0df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <span class="title"><a href="#header"> OLAMIDE </a></span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer </p>
+                <h1>Hi, I'm <span>Abdulroheem <br>Abdullah </span>From Nigeria </h1>
+            </div>
+         </div>
+         <!------------about---------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Ola 2.jpeg" class="pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                <p class="about"> My name is Abdulroheem Abdullah, I'm a programmer per excellence,
+                    I like to contribute to knowledge, build awesome projects and 
+                    reach out to the world. I am Self-motivated Web Developer professional
+                    with 2 years + of experience looking for Web Development Job with
+                    your Company utilizing unmatched web programming skills and abilities.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web Interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div> <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Html</span><br> Writing the web content</li>
+                        <li><span>CSS</span><br> Designing the website</li>
+                        <li><span>Java Script</span><br> Making the website interactive</li>
+                    </ul>
+                </div> <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2021 </span><br> Learning Web development at Vicsoft</li>
+                        <li><span> 2022 </span><br> Secondary school at school for the Gifted, Gwagwalada</li>
+                        <li><span> 2023 </span><br> </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+<!---------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <a href="https://www.google.com/search?q=web+design&sxsrf=APwXEddFiwWvhBhDpUVWeZWCpqKqUVt2EQ%3A1682679266668&ei=4qVLZJ6LKOCH9u8PzZiMsA0&oq=Web+de&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgcIIxCKBRAnMgsIABCKBRCxAxCRAjILCAAQigUQsQMQkQIyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyDQgAEIoFELEDEIMBEEM6CggAEEcQ1gQQsAM6BAgjECc6CwgAEIoFEJECEIsDOg4IABCKBRCxAxCRAhCLAzoICAAQgAQQiwM6BQgAEIAEOgcIIxDqAhAnOg0ILhCPARDqAhC0AhgBOg0IABCPARDqAhC0AhgBOgoIABCKBRCxAxBDOggIABCABBCxAzoECAAQAzoKCAAQigUQQxCLAzoTCC4QigUQ1AIQQxCLAxCoAxCjAzoZCC4QigUQsQMQxwEQ0QMQQxCLAxCoAxDSAzoUCC4QgAQQsQMQ1AIQiwMQqAMQowM6DggAEIAEELEDEIMBEIsDOg4IABCKBRCxAxCDARCLAzoICAAQigUQkQJKBAhBGABQtAhY8Shg1zpoBXABeASAAfANiAGuKZIBCzItNy4yLjctMS4xmAEAoAEBsAEUyAEIuAECwAEB2gEGCAEQARgK&sclient=gws-wiz-serp">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <a href="https://www.google.com/search?q=UI%2FUX+&sxsrf=APwXEddFiwWvhBhDpUVWeZWCpqKqUVt2EQ%3A1682679266668&ei=4qVLZJ6LKOCH9u8PzZiMsA0&ved=0ahUKEwiehNfftMz-AhXgg_0HHU0MA9YQ4dUDCA8&uact=5&oq=UI%2FUX+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzILCAAQigUQkQIQiwMyDggAEIoFELEDEJECEIsDMggIABCABBCLAzIICAAQgAQQiwMyCAgAEIAEEIsDMggIABCABBCLAzIICAAQgAQQiwMyCAgAEIAEEIsDMggIABCABBCLAzoKCAAQRxDWBBCwA0oECEEYAFCzKFizKGDNPWgCcAF4AIABjwKIAY8CkgEDMi0xmAEAoAEByAEIuAEBwAEB&sclient=gws-wiz-serp">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <a href="https://www.google.com/search?q=App+design&sxsrf=APwXEdeoAPYAFDmbbsEkr3EjjgcL-o7jkw%3A1682679417474&ei=eaZLZJ3KHNyB9u8PmtWWwAo&ved=0ahUKEwjd6suntcz-AhXcgP0HHZqqBagQ4dUDCA8&uact=5&oq=App+design&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICAAQigUQkQIyCwgAEIoFEJECEIsDMgsIABCKBRCRAhCLAzIJCAAQBxAeEIsDMgkIABAHEB4QiwMyCQgAEAcQHhCLAzIJCAAQBxAeEIsDMggIABCABBCLAzIGCAAQBxAeMgYIABAHEB46CggAEEcQ1gQQsANKBAhBGABQd1h3YLkKaAFwAXgAgAHdAogB3QKSAQMzLTGYAQCgAQHIAQi4AQHAAQE&sclient=gws-wiz-serp">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Qualifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Web dev.jfif" alt="">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p> A platform to connect with your customers </p>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/UI UX.jfif" alt="">
+                <div class="layer">
+                    <h3>UI/UX</h3>
+                    <p> Enables you to attract more prospects </p>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ICT.jfif" alt="">
+                <div class="layer">
+                    <h3>ICT</h3>
+                    <p> Improves employee communication </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>1234567890</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/itz Somebody's name"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://twitter.com/@AbdulroheemOla5"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="http://www.intagram.com/olamzee_001"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://linkedin.com/in/abdulroheem-olamide-32a263249"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" id="" cols="" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abdullah, Made by<i class="fa-solid fa-heart"></i> Abdullah</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        } function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
